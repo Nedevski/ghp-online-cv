@@ -147,7 +147,7 @@ projects:
         Technologies:
         .NET Core 6, EF Core, Azure DevOps CI, Azure App Configuration, Graphql, OrchardCore
 
-    - title: (Confidential) Diabetes Management
+    - title: Diabetes Management System
       details: 2020
       # link: "#"
       tagline: |
