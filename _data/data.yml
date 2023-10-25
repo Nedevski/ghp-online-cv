@@ -3,263 +3,238 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Nikola Nedevski
+  tagline: Senior .NET Developer
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: dev@nedevski.com
+  timezone: Europe/Sofia
+  citizenship: Plovdiv, Bulgaria
+  # website: blog.webjeda.com #do not add http://
+  linkedin: nedevski
+  github: nedevski
+  # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Bulgarian
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: English
+        level: Professional
 
-        - idiom: Spanish
-          level: Professional
+      - idiom: Spanish
+        level: Beginner
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Home Automation
+        link:
 
-        - item: Snowboarding
-          link:
+      - item: Music (Guitar & Singing)
+        link:
 
-        - item: Cooking
-          link:
+      - item: Photography
+        link: https://nedevskivisuals.com/
 
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+# career-profile:
+#     title: Career Profile
+#     summary: |
+#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
+#       adipiscing elit. You can [download this free resume/CV template here]().
+#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+#       Donec quam felis, ultricies nec, pellentesque eu.
+#       Second paragraph if required.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: Bachelor in Computer Science
+      university: Plovdiv University "Paisii Hilendarski"
+      time: 2012 - 2016
+    - degree: High School
+      university: PMG "Akad. Nikola Obreshkov" Burgas
+      time: 2008 - 2012
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+  title: Certifications
+  info:
+    - title: "React - The Complete Guide (incl Hooks, React Router, Redux) 🔗"
+      time: Jan 2022
+      certifier: Udemy
+      link: https://www.udemy.com/certificate/UC-ec6d4cc9-b41b-4786-8de5-ed5165ada524/
+      # details: "No"
+    - title: "Microsoft Certified: Azure Fundamentals (AZ-900) 🔗"
+      time: Oct 2021
+      certifier: Microsoft
+      link: https://www.credly.com/badges/4130bb43-ea0b-450c-b56d-0b953d066a11
+      # details: "No"
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+experiences:
+  title: Experience
+  info:
+    - role: Senior .NET Developer
+      time: Sept 2021 - Present
+      company: MentorMate
+      # details: |
+      #   None
+    - role: .NET Developer
+      time: Aug 2016 - Sept 2021
+      company: MentorMate
+      # details: |
+      #   None
+    - role: Junior .NET Developer
+      time: Oct 2015 - Aug 2016
+      company: MentorMate
+      # details: |
+      #   None
+    - role: .NET Developer Intern
+      time: Jul 2015 - Oct 2015
+      company: MentorMate
+      # details: |
+      #   None
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  # intro: >
+  #   These are some of my projects
+  assignments:
+    - title: Ascend Analytics
+      details: Mentormate
+      link: "https://www.ascendanalytics.com/"
+      tagline: |
+        Management of price prediction for electricity produced by power plants.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        We had the task to replace the client’s old desktop app with a web based solution using a React frontend,
+        .NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        **Responsibilities:**
+          - BE team lead - overseeing the work of 3 BE developers, distributing tasks, PR reviews, participating in plannings and client meetings,
+          collaborating with other TLs that work on other parts of the project
+          - Introducing localization to the project
+          - Rewriting and improving the pre-existing logic of the old app
+          - Manually creating SQL queries to the Oracle DB
+          - Guiding the junior members to writing clean, optimized code
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        Technologies: .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Junior Achievement (PAS)
+      details: Mentormate
+      link: "https://jausa.ja.org/"
+      tagline: |
+        An internal system where JA can create surveys/tests, whereas teachers and volunteers can access and share those according to their programs.
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        I was responsible for creating new modules - the integration management system (managing Google Drive/Classroom integration)
+        and a custom CMS (Orchard Core, Azure Blob storage). Through the CMS, the users are able to upload learning materials,
+        structure them in a learning path for a program, and share them with the particular class that needs the materials.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        **Responsibilities:**
+          - Developing and maintaining new APIs and services - integrations with Google Drive, Google Classroom, Azure Key Vault
+          - Developing a custom CMS solution using Orchard Core and Azure Blob Storage
+          - Implementing universal messaging with Azure Service Bus for all microservices in the project
+          - Migrating the configuration of existing microservices to Azure App Configuration
+          - Migrating all existing microservices from .NET Core 3.1 to .NET 6
+          - Setting up CI/CD and Azure resources for all new projects
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        Technologies:
+        .NET Core 6, EF Core, Azure DevOps CI, Azure App Configuration, graphql, OrchardCore
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    - title: (Confidential) Diabetes Management
+      details: 2020
+      # link: "#"
+      tagline: |
+        Rewriting a diabetes helper platform from .NET Framework to .Net Core 3.1, hosted in Azure (App Services + MS SQL)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        The platform is used by diabetes patients and their doctors to support the tracking and management of their health logs and data.
+        It has a Web Portal, as well as a mobile app.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        **Responsibilities:**
+          - Participating in laying the foundations for a new system
+          - Building new modules of the system
+          - Participating in DB architecture discussions
+          - Writing and optimizing complex EF Core queries
 
-skills:
-    title: Skills &amp; Proficiency
+        Technologies:
+        .NET Core 3.1, EF Core, MS SQL, Azure App Services
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+    - title: 3Plenish
+      details: 2016-2019
+      link: "https://3plenish.com/"
+      tagline: |
+        An inventory management tool for managing, tracking and replenishing their service truck and warehouse inventories.
 
-      - name: Javascript & jQuery
-        level: 98%
+        I was the one-man army for this project for 4 years.
 
-      - name: Angular
-        level: 98%
+        My responsibilities for this project were developing new features and supporting existing ones for 2 web apps,
+        2 APIs (for mobile and external) and 2 service apps (sync with external provider).
 
-      - name: HTML5 & CSS
-        level: 95%
+        I was the main tester and was responsible for executing DB migrations and deployments to Production.
+        I was also the main contact for bugs/issues on Production.
 
-      - name: Ruby on Rails
-        level: 85%
+        Technologies: MVC5, WebAPI 2, EF, jQuery, RabbitMQ
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - title: PlanningMate
+      details: Jul 2015 - Dec 2015
+      # link: "#"
+      tagline: |
+        A realtime Scrum poker app, which allows users to estimate effort or
+        relative size of development goals in the software development process in a gamified manner.
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+        **Responsibilities:**
+          - Create a backend from scratch, including Authentication and SignalR hubs.
+          - Implement a realtime "game" for estimating user stories.
+          - Create a JIRA integration for pulling stories in the system.
+
+        Technologies:
+        MVC5, SignalR, jQuery
+
+sideprojects:
+  title: Side Projects
+  # intro: >
+  #   These are some of my side projects
+  assignments:
+    - title: KAT Bulgaria - Python package 🔗
+      link: "https://github.com/Nedevski/py_kat_bulgaria"
+      tagline: |
+        A python library that helps with checking for driving fines/obligations
+        from the official government website. Since the website is very unstable,
+        this handles most of the ways it can break. The motivation behind creating this
+        is to use it as a base for my own HomeAssistant integration. I've split them up
+        so that the library can be used standalone by whoever may need it.
+
+    - title: KAT Bulgaria - Home Assistant custom integration 🔗
+      link: "https://github.com/Nedevski/hass_kat_bulgaria"
+      tagline: |
+        A custom HomeAssistant Community Store (HACS) integration, a wrapper around my
+        Python library which enables the user to automatically check for fines
+        and monitor their state directly in HomeAssistant.
+
+# oss:
+#     title: Open Source Contributions
+#     # intro: >
+#     #   These are some of my OSS contributions
+#     contributions:
+#       - title: KAT Bulgaria - Home Assistant integration 🔗
+#         link: "https://github.com/home-assistant/core/pull/90875"
+#         tagline: "Created an official HomeAssistant integration for checking fines from KAT Bulgaria."
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: .NET Core
+#         level: 98%
+
+#       - name: Azure
+#         level: 420%
+
+#       - name: React
+#         level: 69%
