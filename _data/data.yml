@@ -138,24 +138,24 @@ projects:
       details: Mentormate
       link: "https://www.ascendanalytics.com/"
       tagline: |
-      Management of price prediction for electricity produced by power plants.
+        Management of price prediction for electricity produced by power plants.
 
-      The project aimed to replace the client’s old desktop app with a web based solution using a React frontend,
-      NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
+        The project aimed to replace the client’s old desktop app with a web based solution using a React frontend,
+        NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
 
-      **Responsibilities:**
-        - BE team lead of 3 BE devs
-        - Collaborating with TLs that work on other parts of the project
-        - Actively participating in planning and estimation
-        - Task distribution and delegation
-        - Mentoring the team to ensure good code quality, code reviews
-        - Introducing localization to the project
-        - Rewriting and improving the pre-existing logic of the old app
-        - Manually creating SQL queries to the Oracle DB
-        - Guiding the junior members to writing clean and optimized code
+        **Responsibilities:**
+          - BE team lead of 3 BE devs
+          - Collaborating with TLs that work on other parts of the project
+          - Actively participating in planning and estimation
+          - Task distribution and delegation
+          - Mentoring the team to ensure good code quality, code reviews
+          - Introducing localization to the project
+          - Rewriting and improving the pre-existing logic of the old app
+          - Manually creating SQL queries to the Oracle DB
+          - Guiding the junior members to writing clean and optimized code
 
-      **Technologies:**
-      .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
+        **Technologies:**
+        .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
 
     - title: Junior Achievement
       details: Mentormate
