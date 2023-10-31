@@ -123,7 +123,7 @@ projects:
   #   These are some of my projects
   assignments:
     - title: Veterinary Services Provider
-      details: Mentormate
+      details: 2023
       # link: #
       tagline: |
         A global leader in veterinary services, delivering animal care in around 2,500 locations across 20 countries.
@@ -142,7 +142,7 @@ projects:
         .NET Core 6, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, NSubstitute
 
     - title: Ascend Analytics
-      details: Mentormate
+      details: 2022
       link: "https://www.ascendanalytics.com/"
       tagline: |
         Management of price prediction for electricity produced by power plants.
@@ -165,7 +165,7 @@ projects:
         .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
 
     - title: Junior Achievement
-      details: Mentormate
+      details: 2021
       link: "https://jausa.ja.org/"
       tagline: |
         An internal system where JA can create surveys/tests, whereas teachers and volunteers can access and share those according to their programs.
@@ -238,7 +238,7 @@ projects:
         **Technologies:**
         MVC5, WebAPI 2, EF, jQuery, RabbitMQ, Jenkins
 
-    - title: PlanningMate (internal)
+    - title: PlanningMate
       details: Jul 2015 - Dec 2015
       # link: "#"
       tagline: |
