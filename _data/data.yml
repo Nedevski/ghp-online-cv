@@ -38,6 +38,12 @@ sidebar:
       - item: Home Automation
         link:
 
+      - item: Self-hosting
+        link:
+
+      - item: Arduino
+        link:
+
       - item: Music (Guitar & Singing)
         link:
 
