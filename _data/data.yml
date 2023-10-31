@@ -86,8 +86,8 @@ experiences:
       company: MentorMate
       details: |
         - Experience as a Team Lead - one of two .NET Team Leads in a 35-people project (Ascend Analytics).
-        - Responsible for high-level architecture decisions (JA & VSP)
         - Leading 3 other BE devs, distributing tasks, reviewing PRs and responsible for global code changes.
+        - Responsible for high-level architecture decisions (JA & VSP)
         - Mentored two interns, reviewed their tasks and discussed the learning material.
         - Managed an internal full-stack project built by 3 interns as part of their internship program.
     - role: .NET Developer
