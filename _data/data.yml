@@ -44,15 +44,12 @@ sidebar:
       - item: Photography
         link: https://nedevskivisuals.com/
 
-# career-profile:
-#     title: Career Profile
-#     summary: |
-#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-#       adipiscing elit. You can [download this free resume/CV template here]().
-#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-#       Donec quam felis, ultricies nec, pellentesque eu.
-#       Second paragraph if required.
+career-profile:
+  title: About me
+  summary: |
+    I am a Senior .NET Developer with excellent understanding of the best coding practices and hands-on experience with Azure Cloud services.
+    I have experience working as a Team Lead on multiple software development projects in different industries while following recent technologies and processes.
+    I'm proactive and team-oriented with strong passion for learning new technologies and developing new skills.
 
 education:
   title: Education
@@ -85,29 +82,33 @@ experiences:
       time: Sept 2021 - Present
       company: MentorMate
       details: |
-        - Experience as a Team Lead - one of two .NET Team Leads in a 35-people project (Ascend Analytics).
-        - Leading 3 other BE devs, distributing tasks, reviewing PRs and responsible for global code changes.
-        - Responsible for high-level architecture decisions (JA & VSP)
-        - Mentored two interns, reviewed their tasks and discussed the learning material.
-        - Managed an internal full-stack project built by 3 interns as part of their internship program.
+        - .NET Team Lead in a 35-people project
+        - Leading a team of 3 BE devs - tasks distribution and delegation, code reviews and mentoring
+        - Responsible for high-level architecture decisions
+        - Solving challenging problems and refining business specifications to code
+        - Mentoring two Junior Devs - providing guidance, reviewing tasks, tracking project performance and setting yearly goals
+        - Managing an internal full-stack project (.NET/React) built by 3 interns as part of their internship program
+
     - role: .NET Developer
       time: Aug 2016 - Sept 2021
       company: MentorMate
       details: |
-        - Increased responsibilities for my solo project (3Plenish):
-          - Estimated a new project phase.
-          - Responsible for Production DB migrations and deployments.
-          - Consulting the client for new features and helped them choose what features they want to implement next.
-        - Experience with working in a 30+ people team (Diabetes Management System).
-        - Experience with microservice architecture and making global architecture decisions.
+        - Experience in multiple projects, varying in scale (1-35+), complexity and industry (medical, education, energetics and inventory management)
+        - Experience with microservice architecture and making global architecture decisions
+        - Participating in the full software development process - design, development, unit testing, documentation
+        - Analyzing root cause of issues and debugging complex functionality
+        - Estimating new project phases and iteration scopes
+        - Collaboration with the whole development team to ensure process and quality
+        - Participation and enhancement of an established daily SCRUM process
+
     - role: Junior .NET Developer
       time: Jul 2015 - Aug 2016
       company: MentorMate
       details: |
-        - Solo developer for an existing project, responsible for developing new features and testing.
-        - Participated in creating an internal project for gamified estimating/planning with other interns.
-        - Discussed, planned, estimated and implemented new features of the system.
-        - Researched handling the SignalR communication between the BE and the FE.
+        - Working on an internal project for gamified estimating/planning
+          - Discussed, planned, estimated and implemented new features of the system
+          - Researched handling the SignalR communication between the BE and the FE
+        - Solo developer in an existing project - responsible for new development, supporting existing features, DB migrations and deployments (incl. Production)
 
 projects:
   title: Projects
@@ -120,46 +121,48 @@ projects:
       tagline: |
         A global leader in veterinary services, delivering animal care in around 2,500 locations across 20 countries.
 
-        Mono repository containing multiple Azure Functions based microservices. Event-driven architecture backed by Azure Cosmos DB.
+        The project utilizes a mono-repository containing multiple Azure Functions based microservices. Event-driven architecture backed by Azure Cosmos DB.
 
         **Responsibilities:**
+          - Participating in creating an MVP for an app feature providing video consultations
+          - Creating and maintaining a microservice responsible for queuing up people for a video consultation
+          - Creating and maintaining a microservice responsible for managing video rooms for scheduled appointments (creation, URL generation, token generation)
+          - Working with event-driven architecture, collaborating with other teams to ensure the proper workflow with related events and event handlers
+          - Syncing from and updating an external veterinary management system
+          - Maintaining high test coverage for all new features
 
-          - Participating in creating an MVP for an app feature providing video consultations.
-          - Creating and maintaining a microservice responsible for queueing up people for a video consultation.
-          - Creating and maintaining a microservice responsible for managing video rooms for scheduled appointments (creation, URL generation, token generation).
-          - Working with event-driven architecture, collaborating with other teams to ensure the proper workflow with related events and event handlers.
-          - Syncing from and updating an external veterinary management system.
-          - Maintaining high test coverage for all new features.
+        **Technologies:**
+        .NET Core 6, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, NSubstitute
 
     - title: Ascend Analytics
       details: Mentormate
       link: "https://www.ascendanalytics.com/"
       tagline: |
-        Management of price prediction for electricity produced by power plants.
+      Management of price prediction for electricity produced by power plants.
 
-        We had the task to replace the client’s old desktop app with a web based solution using a React frontend,
-        .NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
+      The project aimed to replace the client’s old desktop app with a web based solution using a React frontend,
+      NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
 
-        **Responsibilities:**
-          - BE team lead - overseeing the work of 3 BE developers, distributing tasks, PR reviews, participating in plannings and client meetings,
-          collaborating with other TLs that work on other parts of the project.
-          - Introducing localization to the project.
-          - Rewriting and improving the pre-existing logic of the old app.
-          - Manually creating SQL queries to the Oracle DB.
-          - Guiding the junior members to writing clean, optimized code.
+      **Responsibilities:**
+        - BE team lead of 3 BE devs
+        - Collaborating with TLs that work on other parts of the project
+        - Actively participating in planning and estimation
+        - Task distribution and delegation
+        - Mentoring the team to ensure good code quality, code reviews
+        - Introducing localization to the project
+        - Rewriting and improving the pre-existing logic of the old app
+        - Manually creating SQL queries to the Oracle DB
+        - Guiding the junior members to writing clean and optimized code
 
-        Technologies:
-        .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
+      **Technologies:**
+      .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
 
     - title: Junior Achievement
       details: Mentormate
       link: "https://jausa.ja.org/"
       tagline: |
         An internal system where JA can create surveys/tests, whereas teachers and volunteers can access and share those according to their programs.
-
-        I was responsible for creating new modules - the integration management system (managing Google Drive/Classroom integration)
-        and a custom CMS (Orchard Core, Azure Blob storage). Through the CMS, the users are able to upload learning materials,
-        structure them in a learning path for a program, and share them with the particular class that needs the materials.
+        Users are able to upload learning materials, structure them in a learning path for a program,and share them with the particular Google Classroom that needs the materials.
 
         **Responsibilities:**
           - Developing and maintaining new APIs and services - integrations with Google Drive, Google Classroom, Azure Key Vault.
@@ -169,14 +172,14 @@ projects:
           - Migrating all existing microservices from .NET Core 3.1 to .NET 6.
           - Setting up CI/CD and Azure resources for all new projects.
 
-        Technologies:
+        **Technologies:**
         .NET Core 6, EF Core, Azure DevOps CI, Azure App Configuration, Graphql, OrchardCore
 
     - title: Diabetes Management System
-      details: 2020
+      details: Jun 2020 - Dec 2020
       # link: "#"
       tagline: |
-        Rewriting a diabetes helper platform from .NET Framework to .Net Core 3.1, hosted in Azure (App Services + MS SQL).
+        Rewriting a diabetes helper platform from .NET Framework to .Net Core 3.1, hosted in Azure (App Services + MS SQL)
 
         The platform is used by diabetes patients and their doctors to support the tracking and management of their health logs and data.
         It has a Web Portal, as well as a mobile app.
@@ -187,8 +190,24 @@ projects:
           - Participating in DB architecture discussions.
           - Writing and optimizing complex EF Core queries.
 
-        Technologies:
+        **Technologies:**
         .NET Core 3.1, EF Core, MS SQL, Azure App Services
+
+    - title: Krames on FHIR application
+      details: Jan 2020 - Jun 2020
+      # link: "#"
+      tagline: |
+        An application that enables delivering up-to-date patient education at the point of care.
+        It integrates with an EHR system, allowing to provide content based on the patient’s profile and clinical encounter.
+        It also delivers content through a patient portal or in print, helping patients understand and improve their health condition.
+
+        **Responsibilities:**
+          - Working with the team to migrate the application from .NET Framework 4.6.2 to .NET Core 3.1
+          - Updating project libraries to be .NET Standard compatible
+          - Upgrading packages to their respective .NET Standard version and fixing any incompatibilities encountered in the process
+          - Migrating the Web project to .NET Core 3.1
+          - Migrating custom DI logic from Unity to the built-in .NET Core DI
+          - Migrating the logging from NLog to the built-in .NET Core ILogger
 
     - title: 3Plenish
       details: 2016-2019
@@ -196,10 +215,9 @@ projects:
       tagline: |
         An inventory management tool for managing, tracking and replenishing their service truck and warehouse inventories.
 
-        I was the one-man army for this project for 4 years, besides a 6-month period for introducing new mobile functionalities.
-
-        My responsibilities for this project were developing new features and supporting existing ones for 2 web apps, 2 APIs (for mobile and external) and 2 service apps (sync with external provider).
-          - Developing new features, supporting existing functionality, bug fixing.
+        **Responsibilities:**
+          - Managing the whole project as a solo developer for 4 years
+          - Developing new features, supporting existing functionality, bug fixing
           - Managing 2 web-based applications - manager portal and client mobile-oriented portal.
           - Managing 2 APIs - internal (for Android/iOS apps) and external (clients integrating with the system).
           - Extending 2 service apps responsible for syncing with an external inventory management system.
@@ -208,9 +226,9 @@ projects:
           - Preparing and executing DB migrations on all environments, including Prod.
           - Deploying all 7 apps to two Production VMs and smoke testing.
           - Creating PowerShell scripts to automate parts of the deployment process with Jenkins.
-          - Running most of the client-facing communication regarding new features, releases, etc.
+          - Running the client-facing communication regarding new features, releases, etc.
 
-        Technologies:
+        **Technologies:**
         MVC5, WebAPI 2, EF, jQuery, RabbitMQ, Jenkins
 
     - title: PlanningMate (internal)
@@ -225,7 +243,7 @@ projects:
           - Implement a realtime "game" for estimating user stories.
           - Create a JIRA integration for pulling stories in the system.
 
-        Technologies:
+        **Technologies:**
         MVC5, SignalR, jQuery
 
 sideprojects:
