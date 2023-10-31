@@ -258,15 +258,15 @@ sideprojects:
 #         link: "https://github.com/home-assistant/core/pull/90875"
 #         tagline: "Created an official HomeAssistant integration for checking fines from KAT Bulgaria."
 
-skills:
-  title: Skills &amp; Proficiency
+# skills:
+#   title: Skills &amp; Proficiency
 
-  toolset:
-    - name: .NET Core
-      # level: 98%
+#   toolset:
+#     - name: .NET Core
+#       # level: 98%
 
-    - name: Azure
-      # level: 420%
+#     - name: Azure
+#       # level: 420%
 
-    - name: React
-      # level: 69%
+#     - name: React
+#       # level: 69%
