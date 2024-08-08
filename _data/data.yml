@@ -150,18 +150,17 @@ projects:
         NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
 
         **Responsibilities:**
+          - BE team lead of 3 BE developers
+            - Collaborating with TLs that work on other parts of the project
+            - Actively participating in planning and estimation
+            - Task distribution and delegation
+            - Mentoring the team to ensure good code quality, performing code reviews
           - Migrating existing features, ensuring they are compatible with the existing desktop app
           - Optimizing existing features for performance, considering the slow existing DB
           - Developing new features & enhancements
           - Developing a lot of reusable core logic, so the development is faster and more consistent - custom SQL query builder, CSV importer, CSV validator, CSV exporter, localization
           - Creating manual SQL queries to the legacy Oracle DB for all data retrieval
           - Introducing localization to the project
-
-          - BE team lead of 3 BE developers
-          - Collaborating with TLs that work on other parts of the project
-          - Actively participating in planning and estimation
-          - Task distribution and delegation
-          - Mentoring the team to ensure good code quality, performing code reviews
 
         **Technologies:**
         .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
