@@ -53,10 +53,10 @@ sidebar:
 career-profile:
   title: About me
   summary: |
-    I am a Senior .NET Developer with excellent understanding of the best coding practices and hands-on experience with Azure Cloud services.
+    A Senior .NET Developer with excellent understanding of the best coding practices and hands-on experience with Azure Cloud services.
 
-    I have experience working as a Team Lead on multiple software development projects in different industries while following recent technologies and processes.
-    I'm proactive and team-oriented with strong passion for learning new technologies and developing new skills.
+    Experienced working as a Team Lead on multiple software development projects in different industries while following recent technologies and processes.
+    Proactive and team-oriented with strong passion for learning new technologies and developing new skills.
 
 education:
   title: Education
@@ -89,8 +89,7 @@ experiences:
       time: Sept 2021 - Present
       company: MentorMate
       details: |
-        - .NET Team Lead in a 35-people project
-        - Leading a team of 3 BE devs - tasks distribution and delegation, code reviews and mentoring
+        - .NET Team Lead in a 35-people project, leading a team of 3 BE devs - tasks distribution and delegation, code reviews and mentoring
         - Responsible for high-level architecture decisions
         - Solving challenging problems and refining business specifications to code
         - Mentoring two Junior Devs - providing guidance, reviewing tasks, tracking project performance and setting yearly goals
@@ -100,7 +99,7 @@ experiences:
       time: Aug 2016 - Sept 2021
       company: MentorMate
       details: |
-        - Experience in multiple projects, varying in scale (1-35+), complexity and industry (medical, education, energetics and inventory management)
+        - Experience in multiple projects, varying in complexity, scale (1-35+ people), industry (medical, education, energetics and inventory management)
         - Experience with microservice architecture and making global architecture decisions
         - Participating in the full software development process - design, development, unit testing, documentation
         - Analyzing root cause of issues and debugging complex functionality
@@ -139,7 +138,7 @@ projects:
           - Maintaining high test coverage for all new features
 
         **Technologies:**
-        .NET Core 6, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, NSubstitute
+        .NET 6, Azure Functions, Azure Cosmos DB, Azure App Configuration, Terraform, Twilio, NSubstitute
 
     - title: Ascend Analytics
       details: 2022
@@ -147,19 +146,22 @@ projects:
       tagline: |
         Management of price prediction for electricity produced by power plants.
 
-        The project aimed to replace the client’s old desktop app with a web based solution using a React frontend,
+        The project replaced the client’s old desktop app with a web based solution using a React frontend,
         NET Core 3.1 backend and leveraging the project’s legacy Oracle database.
 
         **Responsibilities:**
-          - BE team lead of 3 BE devs
+          - Migrating existing features, ensuring they are compatible with the existing desktop app
+          - Optimizing existing features for performance, considering the slow existing DB
+          - Developing new features & enhancements
+          - Developing a lot of reusable core logic, so the development is faster and more consistent - custom SQL query builder, CSV importer, CSV validator, CSV exporter, localization
+          - Creating manual SQL queries to the legacy Oracle DB for all data retrieval
+          - Introducing localization to the project
+
+          - BE team lead of 3 BE developers
           - Collaborating with TLs that work on other parts of the project
           - Actively participating in planning and estimation
           - Task distribution and delegation
-          - Mentoring the team to ensure good code quality, code reviews
-          - Introducing localization to the project
-          - Rewriting and improving the pre-existing logic of the old app
-          - Manually creating SQL queries to the Oracle DB
-          - Guiding the junior members to writing clean and optimized code
+          - Mentoring the team to ensure good code quality, performing code reviews
 
         **Technologies:**
         .NET Core 3.1, SignalR, Azure Cloud, Azure DevOps, Oracle SQL
@@ -168,19 +170,34 @@ projects:
       details: 2021
       link: "https://jausa.ja.org/"
       tagline: |
-        An internal system where JA can create surveys/tests, whereas teachers and volunteers can access and share those according to their programs.
+        The PAS platform is an internal system where JA can create surveys/tests, whereas teachers and volunteers can access and share those according to their programs.
         Users are able to upload learning materials, structure them in a learning path for a program,and share them with the particular Google Classroom that needs the materials.
 
+        The Integration Management System is a hub for all JA integrations with external providers, it allows secure management of API credentials and certificates for each school.
+        External providers include Google Classroom, Google Drive, Zoom, Microsoft Teams.
+
+        The Asset Management System is a centralized CMS (based on Orchard Core), through which the users are able to upload learning materials,
+        structure them in a learning path for a program, and share them with the particular Google Classroom that needs the materials.
+
+        Additional microservices were created to handle different background tasks and external integrations via REST calls and ServiceBus messages.
+        Examples - uploading the contents of a Google Drive ZIP file to Azure Blob Storage as a static website; syncing the contents of multiple ZIP files to a Google Classroom.
+
         **Responsibilities:**
-          - Developing and maintaining new APIs and services - integrations with Google Drive, Google Classroom, Azure Key Vault.
-          - Developing a custom CMS solution using Orchard Core and Azure Blob Storage.
-          - Implementing universal messaging with Azure Service Bus for all microservices in the project.
-          - Migrating the configuration of existing microservices to Azure App Configuration.
-          - Migrating all existing microservices from .NET Core 3.1 to .NET 6.
-          - Setting up CI/CD and Azure resources for all new projects.
+
+          - Maintaining existing codebase and microservice infrastructure
+          - Making high-level architecture decisions on newly created projects
+          - Developing a system for managing credentials and certificates for external systems using Azure Key Vault
+          - Developing a custom CMS solution from scratch using Orchard Core and Azure Blob Storage
+          - Developing a microservice that uploads multiple ZIPs from the CMS in a Google Classroom
+          - Developing a microservice that uploads the contents of a ZIP file in an Azure Blob Storage static websites
+          - Implementing Azure Service Bus messaging for all microservices in the project
+          - Creating Azure resources for all new projects - App services, Databases, Blob Storages, etc.
+          - Migrating the configuration of all existing microservices to Azure App Configuration
+          - Migrating all existing microservices from .NET Core 3.1 to .NET 6
+          - Setting up CI/CD and Azure resources for all new projects
 
         **Technologies:**
-        .NET Core 6, EF Core, Azure DevOps CI, Azure App Configuration, Graphql, OrchardCore
+        .NET 6, EF Core, MSSQL, Azure App Services & API Management, Azure Blob Storage, Azure App Configuration, Azure KeyVault, Azure ServiceBus, Azure DevOps CI/CD, Graphql, OrchardCore, Google Classroom API, Google Drive API
 
     - title: Diabetes Management System
       details: Jun 2020 - Dec 2020
@@ -192,13 +209,14 @@ projects:
         It has a Web Portal, as well as a mobile app.
 
         **Responsibilities:**
-          - Participating in laying the foundations for a new system.
-          - Building new modules of the system.
-          - Participating in DB architecture discussions.
-          - Writing and optimizing complex EF Core queries.
+          - Participating in rewriting the old .NET API to WebApi 2 to .NET Core 3.1
+          - Migrating existing functionality and developing new features
+          - Participating in architecture discussions for the new app
+          - Participating in DB architecture discussions
+          - Writing and optimizing complex EF Core queries
 
         **Technologies:**
-        .NET Core 3.1, EF Core, MS SQL, Azure App Services
+        .NET Core 3.1, WebApi 2, EF Core, MSSQL, Azure App Services, Azure Blob Storage
 
     - title: Krames on FHIR application
       details: Jan 2020 - Jun 2020
@@ -216,27 +234,32 @@ projects:
           - Migrating custom DI logic from Unity to the built-in .NET Core DI
           - Migrating the logging from NLog to the built-in .NET Core ILogger
 
+        **Technologies:**
+        .NET Framework, .NET Core 3.1, WebApi 2, MSSQL, EntityFramework, Moq
+
     - title: 3Plenish
       details: 2016-2019
       link: "https://3plenish.com/"
       tagline: |
-        An inventory management tool for managing, tracking and replenishing their service truck and warehouse inventories.
+        An inventory management tool for businesses that want to easily see, track, and replenish their service truck and warehouse inventories.
+        It consists of a Manager portal for company management, as well as Web, iOS, and Android technician apps, allowing easy management of your inventory when you're on the go.
 
         **Responsibilities:**
           - Managing the whole project as a solo developer for 4 years
           - Developing new features, supporting existing functionality, bug fixing
-          - Managing 2 web-based applications - manager portal and client mobile-oriented portal.
-          - Managing 2 APIs - internal (for Android/iOS apps) and external (clients integrating with the system).
-          - Extending 2 service apps responsible for syncing with an external inventory management system.
-          - Extending a service app, responsible for generating user prompts to count existing items in their physical inventory.
-          - Testing all new and existing functionality, verifying new functionality on Test, Staging and Production.
-          - Preparing and executing DB migrations on all environments, including Prod.
-          - Deploying all 7 apps to two Production VMs and smoke testing.
-          - Creating PowerShell scripts to automate parts of the deployment process with Jenkins.
+          - Troubleshooting Production issues for different customers
+          - Managing 2 web-based applications - manager portal and client mobile-oriented portal
+          - Managing 2 APIs - internal (for Android/iOS apps) and external (clients integrating with the system)
+          - Extending 2 service apps responsible for syncing with an external inventory management system
+          - Extending a service app, responsible for generating user prompts to count existing items in their physical inventory throughout the year
+          - Testing all new and existing functionality, verifying new functionality on Test, Staging and Production
+          - Preparing and executing DB migrations on all environments, including Prod
+          - Deploying all 7 apps to two Production VMs and smoke testing
+          - Creating PowerShell scripts to automate parts of the deployment process with Jenkins
           - Running the client-facing communication regarding new features, releases, etc.
 
         **Technologies:**
-        MVC5, WebAPI 2, EF, jQuery, RabbitMQ, Jenkins
+        MVC5, WebAPI 2, MSSQL EntityFramework, jQuery, RabbitMQ, Jenkins, Windows Services
 
     - title: PlanningMate
       details: Jul 2015 - Dec 2015
@@ -246,12 +269,13 @@ projects:
         relative size of development goals in the software development process in a gamified manner.
 
         **Responsibilities:**
-          - Create a backend from scratch, including Authentication and SignalR hubs.
-          - Implement a realtime "game" for estimating user stories.
-          - Create a JIRA integration for pulling stories in the system.
+          - Working with the team to design the architecture of the system from scratch
+          - Developing new features for the system
+          - Integrating the back-end with the real-time "game" rooms used for estimating user stories (SignalR)
+          - Creating a JIRA integration for pulling stories in the system
 
         **Technologies:**
-        MVC5, SignalR, jQuery
+        MVC5, WebAPI 2, EntityFramework, MSSQL, SignalR, jQuery
 
 sideprojects:
   title: Side Projects
