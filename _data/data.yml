@@ -121,6 +121,27 @@ projects:
   # intro: >
   #   These are some of my projects
   assignments:
+    - title: Job applicant self-service portal (VVA Lithuania/ŽIVIS)
+      details: 01.2026 - 06.2026
+      # link: #
+      tagline: |
+        A national-scale information system that supports job search and application processes for public sector positions.
+
+        The "Pretendento Savitarna" (Applicant Self-Service) module provides functionality for browsing job listings, searching opportunities, and submitting applications.
+        The system integrates with multiple legacy subsystems to enable consistent data exchange and maintain a unified workflow across a complex, distributed environment.
+
+        **Responsibilities:**
+          - Implemented backend functionality based on functional specifications for the Pretendento Savitarna module
+          - Designed and developed APIs supporting job search, listings, and application workflows
+          - Integrated the module with existing legacy subsystems to ensure consistent data flow and interoperability
+          - Worked with MS SQL Server for data modeling, querying, and persistence
+          - Ensured alignment between new features and existing system architecture in a complex environment
+          - Leveraged GitHub Copilot to accelerate development by generating boilerplate code, assisting in implementing business logic, and streamlining backend feature development
+
+        **Technologies:**
+        .NET 9, MS SQL Server, GitHub Copilot, NSubstitute
+
+
     - title: Veterinary Services Provider
       details: 2023 - 2025
       # link: #
